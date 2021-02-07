@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
-import useChat from './useChat'
+import useChat from '../hooks/useChat'
 
 const ChatRoom = () => {
   const { roomId } = useParams()

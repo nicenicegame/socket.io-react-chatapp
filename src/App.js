@@ -1,8 +1,8 @@
 import React from 'react'
-import './App.css'
 import { Switch, Route } from 'react-router-dom'
-import Home from './Home'
-import ChatRoom from './ChatRoom'
+import Home from './components/Home'
+import ChatRoom from './components/ChatRoom'
+import './style/App.css'
 
 function App() {
   return (

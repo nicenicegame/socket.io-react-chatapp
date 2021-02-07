@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
 .home {
   width: 40%;
   margin: auto;
@@ -20,11 +29,12 @@
   font-size: 20px;
 }
 
-.home button {
+button {
   padding: 1rem 4rem;
   border: none;
   background: rgb(78, 107, 21);
   color: white;
+  font-size: 18px;
 }
 
 .chat-room {
@@ -43,7 +53,7 @@
 .chat-box {
   height: 80vh;
   width: 100%;
-  background: rgb(226, 225, 225);
+  background: rgb(243, 241, 241);
   overflow-y: scroll;
 }
 
